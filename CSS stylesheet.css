@@ -1,0 +1,146 @@
+
+.main_container {
+  width: 600px;
+  height: 500px;
+  position: relative;
+  left: 150px;
+  top: 40px;
+}
+
+.main_body {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background: linear-gradient(to bottom, #000000, #404040);
+	position: relative;
+	left: 100px;
+	}
+
+.eye {
+	background: #ffffff;
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	border-radius: 50%;
+	border: 2px solid #a6a6a6;
+}
+
+.right_eye {
+	right: 90px;
+	margin-top: 50px;
+}
+
+.left_eye {
+	left: 90px;
+	margin-top: 50px;
+}
+
+.eye > div {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50%;
+	border: 2px solid #000000;
+}
+
+.left_eye_pupil {
+	background: linear-gradient(to bottom right, #00134d, #668cff);
+	left: 35px;
+	top: 50px;
+}
+
+.right_eye_pupil {
+	background: linear-gradient(to bottom left, #00134d, #668cff);
+	right: 35px;
+	top: 50px;
+}
+
+.belly {
+	width: 250px;
+	height: 200px;
+	left: 75px;
+	bottom: 5px;
+	background: #ffffff;
+	position: absolute;
+	border-radius: 50%;
+	border: 2px solid #a6a6a6;
+}
+
+.beak {
+	position: absolute;
+	width: 60px;
+	height: 40px;
+	border-radius: 15%;
+	left: 170px;
+	top: 160px;
+	background: linear-gradient(to bottom, #990000, #ff3333);
+	z-index: 1;
+}
+
+.beak_peak {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	border-radius: 15%;
+	left: 177.5px;
+	top: 173px;
+	background: #ff3333;
+	transform: rotate(45deg);
+}
+
+.wings > div {
+	width: 130px;
+	height: 200px;
+	position: absolute;
+	border-radius: 50%;
+	background: #000000;
+	z-index: -1;
+	top: 130px;
+}
+
+.left_wing {
+	left: 50px;
+}
+
+.right_wing {
+	right: 50px;
+}
+
+.legs > div {
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50%;
+	background: #000000;
+	z-index: -1;
+}
+
+.left_foot {
+	left: 150px;
+	bottom: 100px;
+}
+
+.right_foot {
+	right: 150px;
+	bottom: 100px;
+}
+
+
+.main_body:hover .left_eye_pupil {
+	left: 55px;
+	top: 60px;
+}
+
+.main_body:hover .right_eye_pupil {
+	right: 55px;
+	top: 60px;
+}
+
+.penguin {
+    cursor:grab;
+}
+.penguin:active .wings {
+	visibility: hidden;
+}
+
+
